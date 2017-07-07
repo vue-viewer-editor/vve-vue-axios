@@ -1,4 +1,6 @@
 # vue-axios
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/imcvampire/vue-axios.svg)](https://greenkeeper.io/)
 A small wrapper for integrating axios to Vuejs
 
 ## How to install:
