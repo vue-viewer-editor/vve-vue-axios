@@ -5,6 +5,7 @@ declare module "vue/types/vue" {
 
   interface Vue {
     axios: AxiosInstance;
+    $axios: AxiosInstance;
     $http: AxiosInstance;
   }
 

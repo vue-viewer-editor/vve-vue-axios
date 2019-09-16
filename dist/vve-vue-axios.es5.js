@@ -32,6 +32,12 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
         }
       },
 
+      $axios: {
+        get: function get() {
+          return axios;
+        }
+      },
+
       $http: {
         get: function get() {
           return axios;

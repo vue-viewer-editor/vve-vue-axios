@@ -28,6 +28,12 @@ function plugin(Vue, axios) {
       }
     },
 
+    $axios: {
+      get() {
+        return axios
+      }
+    },
+
     $http: {
       get() {
         return axios
