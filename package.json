@@ -6,7 +6,8 @@
   "types": "index.d.ts",
   "scripts": {
     "test": "npm run test",
-    "build": "gulp"
+    "build": "gulp",
+    "release": "git commit -am %npm_package_version% && git tag v%npm_package_version% && git push && git push --tags && echo 'i Run `npm publish` to publish'"
   },
   "typing": "index.d.ts",
   "files": [

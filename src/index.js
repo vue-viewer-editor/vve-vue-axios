@@ -20,6 +20,8 @@ function plugin(Vue, axios) {
 
   Vue.axios = axios
 
+  Vue.$axios = axios
+
   Object.defineProperties(Vue.prototype, {
 
     axios: {

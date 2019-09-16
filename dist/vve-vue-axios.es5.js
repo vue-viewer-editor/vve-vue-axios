@@ -24,6 +24,8 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
     Vue.axios = axios;
 
+    Vue.$axios = axios;
+
     Object.defineProperties(Vue.prototype, {
 
       axios: {

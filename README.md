@@ -28,7 +28,15 @@ Vue.axios.get(api).then((response) => {
   console.log(response.data)
 })
 
+Vue.$axios.get(api).then((response) => {
+  console.log(response.data)
+})
+
 this.axios.get(api).then((response) => {
+  console.log(response.data)
+})
+
+this.$axios.get(api).then((response) => {
   console.log(response.data)
 })
 
@@ -38,3 +46,6 @@ this.$http.get(api).then((response) => {
 ```
 
 Please kindly check full documention of [axios](https://github.com/axios/axios) too 
+
+### Thanks
+https://github.com/imcvampire/vue-axios
