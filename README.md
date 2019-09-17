@@ -48,4 +48,4 @@ this.$http.get(api).then((response) => {
 Please kindly check full documention of [axios](https://github.com/axios/axios) too 
 
 ### Thanks
-https://github.com/imcvampire/vue-axios
+[vue-axios](https://github.com/imcvampire/vue-axios)
