@@ -1,4 +1,7 @@
 # vve-vue-axios
+
+[![Build Status](https://travis-ci.org/vue-viewer-editor/vve-vue-axios.svg?branch=master)](https://travis-ci.org/vue-viewer-editor/vve-vue-axios)
+
 A small wrapper for integrating axios to Vuejs
 
 ## How to install:
